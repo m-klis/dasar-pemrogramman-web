@@ -3,29 +3,27 @@
    /* border: 1px solid #ddd; */
 }
 .header {
-    overflow: auto;
-    height: 200px;
+    position: relative;
 }
-.header img{
-    float: left;
-    height: 90%;
-    border-radius: 10px;
-    margin: 10px;
+.header .headimg {
+   position: absolute;
+   height: 20%;
 }
-.header img:hover{
-    /* background-image: url("http://mckio.my.id/contoh.jpg"); */
-    opacity: 0.3;
+.header .headimg img{
+    position: absolute;
+    height: 20%;
 }
+
 .headertop{
     background-color: red;
     color: white;
-    height: 50%;
+    height: 100%;
     text-align: center;
 }
 .headerbot{
     background-color: white;
     color: #000;
-    height: 50%;
+    height: 100%;
     text-align: center;
 }
 .content {
