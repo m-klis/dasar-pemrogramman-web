@@ -1,0 +1,51 @@
+* {
+   margin: 0;
+   /* border: 1px solid #ddd; */
+}
+.header {
+    overflow: auto;
+    height: 200px;
+}
+.header img{
+    float: left;
+    height: 90%;
+    border-radius: 10px;
+    margin: 10px;
+}
+.header img:hover{
+    /* background-image: url("http://mckio.my.id/contoh.jpg"); */
+    opacity: 0.3;
+}
+.headertop{
+    background-color: red;
+    color: white;
+    height: 50%;
+    text-align: center;
+}
+.headerbot{
+    background-color: white;
+    color: #000;
+    height: 50%;
+    text-align: center;
+}
+.content {
+    min-height: 500px;
+    text-align: center;
+}
+.content p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-weight: bold;
+}
+.content img{
+    display: block;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 300px;
+}
+.footer {
+    text-align: center;
+}
